@@ -44,7 +44,7 @@ nav ul li a:hover {
 }
 
 .gallery {
-  position: relative;
+  position: center;
   width: 80%;
   max-width: 600px;
 }
