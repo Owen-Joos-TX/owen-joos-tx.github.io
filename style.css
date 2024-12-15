@@ -7,26 +7,12 @@ html, body {
   padding: 0;
 }
 
-/* Ensure all text is visible against the background */
-p1, p2, p3, h2, h3 {
-  color: white;
-}
 
 
 h2{
     text-align: center;
     color: plum;
     font-family:'Courier New', Courier, monospace
-}
-
-p, p1, p2, p3, h2 {
-  font-size: 24px; /* Adjust size as needed */
-  color: white;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 
@@ -36,14 +22,6 @@ p, p1, p2, p3, h2 {
     margin-left: auto;
     margin-right: auto
 
-}
-
-
-p3{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    color: white;
-    text-align: center
 }
 
 .column {
@@ -60,6 +38,16 @@ p3{
 
 * {
   box-sizing: border-box;
+}
+
+p, p1, p2, p3, h2 {
+  font-size: 24px; /* Adjust size as needed */
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 /* unvisited link */
