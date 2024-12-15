@@ -5,15 +5,14 @@
         <link rel="icon" type="image/bfavicon.ico" href="/images/stagefrighticon.ico">
         <link rel="stylesheet" href="style.css">
         <style>
-            /* Increase font size and add black outline to text */
+            /* Increase font size and add a small black background behind text */
             p1, p2, p3, h2, h3, a {
-                font-size: 16px; /* Increase as desired */
+                font-size: 48px; /* Increase as desired */
                 color: white;
-                text-shadow:
-                    -2px -2px 0 #000,
-                    2px -2px 0 #000,
-                    -2px 2px 0 #000,
-                    2px 2px 0 #000;
+                background-color: rgba(0, 0, 0, 0.6); /* Black background with some transparency */
+                padding: 5px 10px; /* Space around the text */
+                border-radius: 5px; /* Rounded corners */
+                display: inline-block; /* Ensures background only wraps the text */
             }
 
             /* Background settings */
