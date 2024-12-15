@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Stage Fright!</title>
-        <link rel="icon" type="image/bfavicon.ico" href="/images/stagefrighticon.ico">
-        <link rel="stylesheet" href="style.css">
-        <style>
-            /* Reduced font size by 10px (from 32px to 22px) */
-            /* Reduced background padding similarly (from 5px 10px to 3px 6px) */
-            p1, p2, p3, h2, h3, a {
-                font-size: 22px;
-                color: white;
-                background-color: rgba(0, 0, 0, 0.6);
-                padding: 3px 6px;
-                border-radius: 5px;
-                display: inline-block;
-            }
+<head>
+    <title>Stage Fright!</title>
+    <link rel="icon" type="image/bfavicon.ico" href="/images/stagefrighticon.ico">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General styling */
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: url('background.gif') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
 
-            /* Background settings */
-            html, body {
-                margin: 0;
-                padding: 0;
-                background: url('background.gif') no-repeat center center fixed;
-                background-size: cover;
-                text-align: center;
-                font-family: 'Courier New', Courier, monospace;
-            }
+        /* Styling for headings and paragraphs */
+        h2, p, a {
+            font-size: 22px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+            padding: 3px 6px;
+            border-radius: 5px;
+            display: block; /* Make them block-level so they stack neatly */
+            margin: 10px auto; /* Center and add vertical spacing */
+            width: fit-content; /* Shrink background to fit text width */
+        }
 
-            /* Links hover effect */
-            a:hover {
-                color: hotpink;
-            }
-        </style>
-    </head>
-    <body>
-        <br><p1 style="text-align: left;"><a href="tourdates.html">Tour Dates</a> <a href="buyit.html">Merch</a> <a href="callourmanager.html">Contact Us</a></p1>
-        <br>
-        <h2>Stage Fright</h2>
-        <p1><a href="https://stagefright2024.github.io">This</a> site is all about the rock band Stage Fright!<br></p1>
-        <p1><br><u>Our Story</u></p1>
-        <p1><br>We started our band in the summer of 2024, having been brought <br>together through our shared fear of being on stage, <br>only overcome by our desire to share our music.</p1>
-        <p1><br>Our music is inspired by the Red Hot Chili Peppers, Linkin Park, and samples of elevator music.<br></p1>
-        
-        <p3><br><u>Our Members</u><br><br></p3>
-        <p1><u>Jimmothy Johnothy</u> - Lead Singer</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Blair Coolson</u> - Lead Guitar</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Brad Dollar$ign</u> - Rhythm Guitar</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Timmothy Johnothy</u> - Bass</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Alec McDougal</u> - Keyboard</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Sun Sung</u> - Drums</p1><br>
-        <p1>insert background here</p1><br><br>
-    </body>
+        /* Links hover effect */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* Underlined elements retain their style */
+        u {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        <a href="tourdates.html">Tour Dates</a> 
+        <a href="buyit.html">Merch</a> 
+        <a href="callourmanager.html">Contact Us</a>
+    </p>
+
+    <h2>Stage Fright</h2>
+
+    <p><a href="https://stagefright2024.github.io">This</a> site is all about the rock band Stage Fright!</p>
+
+    <p><u>Our Story</u></p>
+    <p>We started our band in the summer of 2024, having been brought together through our shared fear of being on stage, only overcome by our desire to share our music.</p>
+
+    <p>Our music is inspired by the Red Hot Chili Peppers, Linkin Park, and samples of elevator music.</p>
+
+    <p><u>Our Members</u></p>
+
+    <p><u>Jimmothy Johnothy</u> - Lead Singer</p>
+    <p>insert background here</p>
+
+    <p><u>Blair Coolson</u> - Lead Guitar</p>
+    <p>insert background here</p>
+
+    <p><u>Brad Dollar$ign</u> - Rhythm Guitar</p>
+    <p>insert background here</p>
+
+    <p><u>Timmothy Johnothy</u> - Bass</p>
+    <p>insert background here</p>
+
+    <p><u>Alec McDougal</u> - Keyboard</p>
+    <p>insert background here</p>
+
+    <p><u>Sun Sung</u> - Drums</p>
+    <p>insert background here</p>
+
+</body>
 </html>
