@@ -5,17 +5,6 @@
         <link rel="icon" type="image/bfavicon.ico" href="/images/stagefrighticon.ico">
         <link rel="stylesheet" href="style.css">
         <style>
-            /* Increase font size and add a small black background behind text */
-            p1, p2, p3, h2, h3, a {
-                font-size: 48px; /* Increase as desired */
-                color: white;
-                background-color: rgba(0, 0, 0, 0.6); /* Black background with some transparency */
-                padding: 5px 10px; /* Space around the text */
-                border-radius: 5px; /* Rounded corners */
-                display: inline-block; /* Ensures background only wraps the text */
-            }
-
-            /* Background settings */
             html, body {
                 margin: 0;
                 padding: 0;
@@ -24,38 +13,62 @@
                 text-align: center;
             }
 
-            /* Links hover effect */
+            .text-wrapper {
+                background-color: black; /* Solid black background */
+                color: white; /* White text for contrast */
+                font-size: 48px; /* Large font size */
+                display: inline-block; /* Fit background to content */
+                padding: 20px; /* Space around the text */
+                margin-top: 20px; /* Some space from the top */
+            }
+
+            a {
+                color: white;
+                text-decoration: underline;
+            }
+
             a:hover {
                 color: hotpink;
+            }
+
+            u {
+                text-decoration: underline;
             }
         </style>
     </head>
     <body>
-        <br><p1 style="text-align: left;"><a href="tourdates.html">Tour Dates</a> <a href="buyit.html">Merch</a> <a href="callourmanager.html">Contact Us</a></p1>
-        <br>
-        <h2>Stage Fright</h2>
-        <p1><a href="https://stagefright2024.github.io">This</a> site is all about the rock band Stage Fright!<br></p1>
-        <p1><br><u>Our Story</u></p1>
-        <p1><br>We started our band in the summer of 2024, having been brought <br>together through our shared fear of being on stage, <br>only overcome by our desire to share our music.</p1>
-        <p1><br>Our music is inspired by the Red Hot Chili Peppers, Linkin Park, and samples of elevator music.<br></p1>
-        
-        <p3><br><u>Our Members</u><br><br></p3>
-        <p1><u>Jimmothy Johnothy</u> - Lead Singer</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Blair Coolson</u> - Lead Guitar</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Brad Dollar$ign</u> - Rhythm Guitar</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Timmothy Johnothy</u> - Bass</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Alec McDougal</u> - Keyboard</p1><br>
-        <p1>insert background here</p1><br><br>
-        
-        <p1><u>Sun Sung</u> - Drums</p1><br>
-        <p1>insert background here</p1><br><br>
+        <div class="text-wrapper">
+            <p1 style="text-align: left;">
+                <a href="tourdates.html">Tour Dates</a>
+                <a href="buyit.html">Merch</a>
+                <a href="callourmanager.html">Contact Us</a>
+            </p1>
+            <br><br>
+            <h2>Stage Fright</h2>
+            <p1><a href="https://stagefright2024.github.io">This</a> site is all about the rock band Stage Fright!</p1><br>
+            <p1><br><u>Our Story</u></p1><br>
+            <p1>
+                We started our band in the summer of 2024, having been brought 
+                together through our shared fear of being on stage, 
+                only overcome by our desire to share our music.
+            </p1><br><br>
+            <p1>
+                Our music is inspired by the Red Hot Chili Peppers, Linkin Park, 
+                and samples of elevator music.
+            </p1><br><br>
+            <p3><u>Our Members</u></p3><br><br>
+            <p1><u>Jimmothy Johnothy</u> - Lead Singer</p1><br>
+            <p1>insert background here</p1><br><br>
+            <p1><u>Blair Coolson</u> - Lead Guitar</p1><br>
+            <p1>insert background here</p1><br><br>
+            <p1><u>Brad Dollar$ign</u> - Rhythm Guitar</p1><br>
+            <p1>insert background here</p1><br><br>
+            <p1><u>Timmothy Johnothy</u> - Bass</p1><br>
+            <p1>insert background here</p1><br><br>
+            <p1><u>Alec McDougal</u> - Keyboard</p1><br>
+            <p1>insert background here</p1><br><br>
+            <p1><u>Sun Sung</u> - Drums</p1><br>
+            <p1>insert background here</p1><br><br>
+        </div>
     </body>
 </html>
