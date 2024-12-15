@@ -19,11 +19,16 @@ h2{
     font-family:'Courier New', Courier, monospace
 }
 
-p1{
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    color: white
+p, p1, p2, p3, h2 {
+  font-size: 24px; /* Adjust size as needed */
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
+
 
 .logo{
     border-radius: 10px;
